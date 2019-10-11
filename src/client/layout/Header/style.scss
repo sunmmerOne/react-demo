@@ -1,0 +1,27 @@
+.mheader{
+  background: #fff;
+  padding: 0 16px 0 0;
+  text-align: right;
+  @mixin fl {
+    float: left;
+  }
+  @mixin dib {
+    //float: left;
+    display: inline-block;
+  }
+
+
+  .trigger{
+    margin-right: auto;
+    @include fl;
+    @include dib;
+  }
+  .avatar-wrapper{
+    transition: all 1s;
+    padding: 0 20px;
+    @include dib;
+  }
+  .avatar-wrapper:hover{
+    background-color: rgb(230, 247, 255);
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "presets": [
+        "env",
+        "react",
+        "stage-2"
+    ],
+    "plugins": [
+        "transform-runtime",
+        "transform-decorators-legacy",
+        "add-module-exports", ["import",
+            {
+                "libraryName": "antd",
+                "libraryDirectory": "es",
+                "style": "css"
+            }
+        ] // `style: true` 会加载 less 文件
+    ]
+}

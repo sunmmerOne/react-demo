@@ -1,0 +1,5 @@
+// 这是自动生成的文件，可以修改。
+export const TEMPLATE = 'TEMPLATE';
+export const UPDATE_LIST_DATA = 'TEMPLATE/UPDATE_LIST_DATA';
+export const UPDATE_PAGINATION = 'TEMPLATE/UPDATE_PAGINATION';
+export const UPDATE_FORM = 'TEMPLATE/UPDATE_FORM';

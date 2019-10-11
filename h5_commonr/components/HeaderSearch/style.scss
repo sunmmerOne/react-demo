@@ -1,0 +1,45 @@
+
+.search-wrapper{
+  @mixin fl {
+    float: left;
+  }
+  @mixin dib {
+    //float: left;
+    display: inline-block;
+  }
+
+  padding: 0;
+  height: 100%;
+  margin-right: 10px;
+  margin-left: auto;
+  @include dib;
+
+  .search-input {
+    vertical-align: baseline;
+    //line-height: 1;
+    transition: width 0.3s, margin-left 0.3s;
+    width: 0;
+    background: transparent;
+    border-radius: 0;
+    .ant-select-selection {
+      background: transparent;
+    }
+    input {
+      vertical-align: baseline;
+      line-height: 1;
+      border: 0;
+      padding-left: 0;
+      padding-right: 0;
+      box-shadow: none !important;
+    }
+    &,
+    &:hover,
+    &:focus {
+      border-bottom: 1px solid rgb(217, 217, 217);
+    }
+    &.show {
+      width: 210px;
+      margin-left: 8px;
+    }
+  }
+}

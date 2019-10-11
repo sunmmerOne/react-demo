@@ -1,0 +1,21 @@
+$height: 32px;
+.menu-sider-wrapper {
+  overflow: auto;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  z-index: 1;
+}
+.logo {
+  height: $height;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: $height;
+  background: url('~@images/logo.png') no-repeat center 100%;
+  margin-bottom: 20px;
+}

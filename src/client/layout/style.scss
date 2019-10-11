@@ -1,0 +1,24 @@
+$transitonTime: 0.3s;
+.mlayout-wrapper{
+  transition: padding $transitonTime;
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  .right-module{
+    width: 100%;
+    display: inline-block;
+    transition: width $transitonTime;
+  }
+
+  .trigger:hover {
+    color: #1890ff;
+  }
+}
+.wh100{
+  width: 100%;
+  height: 100%;
+}
