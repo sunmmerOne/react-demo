@@ -105,7 +105,7 @@
     "koa2-connect": "^1.0.2",
     "less": "^2.7.2",
     "less-loader": "^4.1.0",
-    "log4js": "^2.5.2",
+    "log4js": "^6.4.0",
     "minimist": "^1.2.0",
     "node-sass": "^4.7.2",
     "opn": "^5.2.0",
